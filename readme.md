@@ -30,7 +30,8 @@ poetry run get-papers-list "cancer treatment"
 To save the results as a CSV file:
 
 ```sh
-poetry run get-papers-list "covid vaccine" -f results.csv
+poetry run get-papers-list "diabetes research" -f results.csv
+
 ```
 
 ### **Debug Mode**
@@ -38,22 +39,10 @@ poetry run get-papers-list "covid vaccine" -f results.csv
 To enable debug mode:
 
 ```sh
-poetry run get-papers-list "diabetes drug" -d
+poetry run get-papers-list "covid vaccine" --debug
+
 ```
 
-## **Development & Contribution**
-
-### **Running Tests**
-
-```sh
-pytest tests/
-```
-
-### **Code Formatting**
-
-```sh
-black pubmed_fetcher/
-```
 
 ## **Tools & Technologies Used**
 
