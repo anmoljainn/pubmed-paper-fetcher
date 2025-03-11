@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "pubmed-fetcher"
+version = "0.1.0"
+description = "Fetch research papers from PubMed and filter pharmaceutical/biotech authors."
+authors = ["Anmol <jainanmol064@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.26.0"
+biopython = "^1.79"
+
+[tool.poetry.scripts]
+get-papers-list = "pubmed_fetcher.cli:main"
